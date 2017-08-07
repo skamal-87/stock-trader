@@ -51,7 +51,7 @@ export default {
     },
     methods: {
       ...mapActions({
-        randomizedStocks: 'randomizeStocks',
+        randomizeStocks: 'randomizeStocks',
         fetchData: 'loadData'
       }),
       endDay() {
